@@ -2,7 +2,7 @@ import telebot
 from pycbrf.toolbox import ExchangeRates
 from telebot import types
 from datetime import datetime
-bot = telebot.TeleBot("1587462822:AAEXWuWScN9WUlhD4VAe_ezTCaDzBZgfuZM")
+bot = telebot.TeleBot("Ваш токен")
 now = datetime.now()
 date_time = now.strftime("%Y-%m-%d")
 rates = ExchangeRates(date_time)
